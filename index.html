@@ -641,6 +641,18 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                         </div>
                     </div>
                 </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans border-0 border-yellow-200 ">
+                    <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
+                        <div  class="md:mt-6 font-sans text-center border-0 border-yellow-200 ">
+                            <h3  style= "color:#947f7a"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-black-300  ">NEW SERVICE 2</h3>
+                            <p
+                                class="box-border mx-0 mt-3 mb-0 font-normal leading-snug text-center border-solid">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>        
             
             </div>
         </div>
@@ -824,30 +836,6 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                 
                                  
                 @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-yellow-600  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-black-300  lg:text-left">
-                    <span class = "flex text-left lg:text-left">Where you at?</span>
-                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </h3>
-                <p  style= "color:#1d724d"  class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-yellow-600 text-center lg:text-left"
-                    x-transition:enter="transition-all ease-out duration-300"
-                    x-transition:enter-start="opacity-0 transform -translate-y-4"
-                    x-transition:enter-end="opacity-100 transform -translate-y-0"
-                    x-transition:leave="transition-all ease-in duration-300"
-                    x-transition:leave-start="opacity-100 transform -translate-y-0"
-                    x-transition:leave-end="opacity-0 transform -translate-y-4"
-                    x-show="show"
-                    x-cloak>Over here yo</p>
-            </div>
-
-        
-
-            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-yellow-100 select-none">
-                <h3  
-                onMouseOver="this.style.color='#947f7a' "
-                onMouseOut=" this.style.color='#1d724d'"
-                style="color:#1d724d;"               
-                
-                                 
-                @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-yellow-600  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-black-300  lg:text-left">
                     <span class = "flex text-left lg:text-left">sup</span>
                     <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </h3>
@@ -860,6 +848,30 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     x-transition:leave-end="opacity-0 transform -translate-y-4"
                     x-show="show"
                     x-cloak>dog</p>
+            </div>
+
+        
+
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-yellow-100 select-none">
+                <h3  
+                onMouseOver="this.style.color='#947f7a' "
+                onMouseOut=" this.style.color='#1d724d'"
+                style="color:#1d724d;"               
+                
+                                 
+                @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-yellow-600  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-black-300  lg:text-left">
+                    <span class = "flex text-left lg:text-left">Where you at?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h3>
+                <p  style= "color:#1d724d"  class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-yellow-600 text-center lg:text-left"
+                    x-transition:enter="transition-all ease-out duration-300"
+                    x-transition:enter-start="opacity-0 transform -translate-y-4"
+                    x-transition:enter-end="opacity-100 transform -translate-y-0"
+                    x-transition:leave="transition-all ease-in duration-300"
+                    x-transition:leave-start="opacity-100 transform -translate-y-0"
+                    x-transition:leave-end="opacity-0 transform -translate-y-4"
+                    x-show="show"
+                    x-cloak>Over here yo</p>
             </div>
 
         
